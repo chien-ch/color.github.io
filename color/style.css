@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*button style*/
+button {
+  background-color: none;
+  color: black;
+  padding: 15px 45px;
+  margin: 20px auto;
+  max-width: 200px;
+  font-size: 25px;
+  display: block;
+  outline: none;
+  border: 1.5px solid black;
+  cursor: pointer;
+}
+
+/*radom color*/
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*box color*/
+.box {
+  width: 20%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(75, 71, 71);
+  border: 2px solid #fff;
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
